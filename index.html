@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+	<title>Megamenu</title>
+</head>
+<body>
+
+	<nav class="menu" id="menu">
+		
+		<div class="contenedor contenedor-botones-menu">
+			<button id="btn-menu-barras" class="btn-menu-barras "><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+		</div>
+
+		<div class="contenedor contenedor-enlaces-nav">
+			<div class="btn-departamentos cambiarModo" id="btn-departamentos">
+				<p>Todos los <span>Departamentos</span></p>
+				<i class="fas fa-caret-down"></i>
+			</div>
+			<div class="enlaces">
+				<a href="#" target="_blank">Blog</a>
+				<a href="#" target="_blank">Catálogos</a>
+				<a href="#" target="_blank">Conócenos</a>
+				<a href="#" target="_blank">Soporte</a>
+			</div>
+		</div>
+
+		<div class="contenedor contenedor-grid">
+			<div class="grid" id="grid">
+				<div class="categorias">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+					<h3 class="subtitulo">Categorias</h3>
+
+					<!-- <a href="#" data-categoria="Covid-19">Covid-19 <i class="fas fa-angle-right"></i></a> -->
+					<a href="#" data-categoria="informatica">Informática <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="impresoras-y-comsumibles">Impresoras y Comsumibles <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="mobilario-de-oficina">Mobiliario Oficina <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="presentacion-y-comunicacion">Presentación y Comunicación <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="servicios-generales">Servicios Generales <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="papel-y-sobres">Papel y Sobres <i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="cuadernos-y-notas">Cuadernos y notas <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="articulos-de-oficina">Articulos de Oficina <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="material-escolar">Material Escolar <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="escritura-y-correción">Escritura y Correción <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="maquinas-de-oficina">Maquinas de Oficina <i class="fas fa-angle-right"></i></a>
+                    <a href="#" data-categoria="electronica" class="final">Electrónica <i class="fas fa-angle-right"></i></a>
+					 <div class="final"></div>
+					
+				</div>
+
+			<div class="contenedor-subcategorias">
+
+					<!-- Covid-19 -->
+				<!-- <div class="subcategoria" data-categoria="Covid-19">
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href="#">Limpieza e Hidrogeles</a></div>
+						<a href="tienda.lucasrojas.com/tienda/categoria/limpieza/1277">Limpieza</a>
+						<a href="tienda.lucasrojas.com/tienda/categoria/hidrogel/1278">Hidrogel</a>
+						<a href="tienda/categoria/desinfectante/1279">Desinfectante</a>
+					</div>
+
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/purificadores/1280">Purificadores</a></div>
+					</div>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/alfombras-y-vinilos/1271">Alfombras y Vinilos</a></div>
+					</div>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/epis-y-guantes/1273">Epis y Guantes</a></div>
+					</div>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/dispensadores-y-dosificadores/1274">Dispensadores y Dosificadores</a></div>
+					</div>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/papeleras/1275">Papeleras</a></div>
+					</div>
+					<div class="enlaces-subcategoria">
+						<div class="titulo"><a href=" tienda/categoria/mamparas-y-limitadores/1276">Mamparas y Limitadores</a></div>
+					</div>						
+				</div> -->
+
+					<!-- INFORMATICA -->
+					<div class="subcategoria " data-categoria="informatica">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Redes</a></div>
+							<a href=" tienda/categoria/tarjetas-de-red/1230">Tarjetas De Red</a>
+							<a href=" tienda/categoria/routers/1231">Routers</a>
+							<a href=" tienda/categoria/switch/1232">Switch</a>
+							<a href=" tienda/categoria/puntos-de-acceso-y-repetidores/1233">Puntos De Acceso/Repetidores</a>
+							<a href=" tienda/categoria/poe/1235">POE</a>
+                            <a href=" tienda/categoria/plc/1236">PLC</a>
+                            <a href=" tienda/categoria/accesorios/1237">Accesorios</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Telefonía</a></div>
+							<a href=" tienda/categoria/smartphones/1198">Smarthphones</a>
+							<a href=" tienda/categoria/telefonia-fija/1199">Telefonía Fija</a>
+							<a href=" tienda/categoria/telefonia-voip/1200">Telefonía VOIP</a>
+							<a href=" tienda/categoria/manos-libres/1201">Manos Libres</a>
+							<a href=" tienda/categoria/wearables/1202">Wearables</a>
+							<a href=" tienda/categoria/accesorios/1301">Accesorios</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Periféricos</a></div>
+							<a href=" tienda/categoria/teclados/1203">Teclados</a>
+							<a href=" tienda/categoria/ratones/1204">Ratones</a>
+							<a href=" tienda/categoria/altavoces/1205">Altavoces</a>
+							<a href=" tienda/categoria/monitores/1045">Monitores</a>
+							<a href=" tienda/categoria/auriculares/1206">Auriculares</a>
+							<a href=" tienda/categoria/microfonos/1207">Micrófonos</a>
+							<a href=" tienda/categoria/webcam/1208">Webcam</a>
+							<a href=" tienda/categoria/sais/1209">SAIS</a>
+							<a href=" tienda/categoria/camaras-ip/1291">Cámaras IP</a>
+							<a href=" tienda/categoria/teclados/1203">Placas Base</a>
+							<a href=" tienda/categoria/teclados/1203">Lectores Códigos De Barras</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Cables y Accesorios</a></div>
+							<a href="tienda/categoria/hdmi/1214">HDMI</a>
+							<a href="tienda/categoria/vga/1215">VGA</a>
+							<a href="tienda/categoria/dvi/1216">DVI</a>
+							<a href=" tienda/categoria/displayport/1217">DisplayPort</a>
+							<a href="tienda/categoria/audio-video/1218">Audio / Vídeo</a>
+							<a href=" tienda/categoria/cables-de-alimentacion/1219">Cables De Alimentación</a>
+							<a href=" tienda/categoria/cables-de-red/1220">Cables De Red</a>
+							<a href=" tienda/categoria/cables-sata/1221">Cables SATA</a>
+							<a href=" tienda/categoria/cables-serie-paralelo/1222">Cables Serie/Paralelo</a>
+                            <a href=" tienda/categoria/fibra-optica/1223">Fibra Óptica</a>
+                            <a href=" tienda/categoria/cables-usb/1224">Cable USB</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Almacenamiento</a></div>
+							<a href=" tienda/categoria/cd-y-dvd/60">CD y DVD</a>
+							<a href="tienda/categoria/discos-duros-internos/1227">Discos Duros Internos</a>
+							<a href="tienda/categoria/discos-duros-externos/1228">Discos Duros Externos</a>
+							<a href="tienda/categoria/discos-duros-en-red-nas/1229  ">Discos Duros En Red / Nas</a>
+							<a href=" tienda/categoria/memorias-usb/68">Memorias USB</a>
+							<a href=" tienda/categoria/tarjetas-de-memoria/1226">Tarjetas De Memoria</a>
+						</div>       
+					</div>
+                    <!-- IMPRESORAS -->
+
+					<div class="subcategoria" data-categoria="impresoras-y-comsumibles">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Cosumibles Originales</a></div>
+							<a href=" tienda/categoria/hp-original/26">HP Original</a>
+							<a href=" tienda/categoria/kyocera-original/39">Kyocera Original</a>
+							<a href=" tienda/categoria/oki-original/38">Oki Original</a>
+							<a href=" tienda/categoria/ricoh-original/37">Ricoh Original</a>
+                            <a href=" tienda/categoria/lexmark-original/35">Lexmark Original</a>
+                            <a href=" tienda/categoria/konica-original/31">Konica Original</a>
+                            <a href=" tienda/categoria/canon-original/30">Canon Original</a>
+                            <a href=" tienda/categoria/epson-original/29">Epson Original</a>
+                            <a href=" tienda/categoria/samsung-original/28">Samsung Original</a>
+                            <a href=" tienda/categoria/brother-original/27">Brother Original</a>
+                            <a href=" tienda/categoria/panasonic-original/40">Parasonic Original</a>
+						</div>
+
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Cosumibles Compatibles</a></div>
+							<a href=" tienda/categoria/hp-compatible/3">HP Compatible</a>
+							<a href=" tienda/categoria/brother-compatible/4">Brother Compatible</a>
+							<a href=" tienda/categoria/samsung-compatible/5">Samsung Compatible</a>
+							<a href=" tienda/categoria/epson-compatible/6">Epson Compatible</a>
+                            <a href=" tienda/categoria/canon-compatible/7">Canon Compatible</a>
+                            <a href=" tienda/categoria/xerox-compatible/10">Xerox Compatible</a>
+                            <a href=" tienda/categoria/kyocera-compatible/16">Kyocera Compatible</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Impresoras / Multifunción</a></div>
+							<a href=" tienda/categoria/tickets/1158">Tickets</a>
+							<a href=" tienda/categoria/inkjet/1159">Inkjet</a>
+							<a href=" tienda/categoria/laser/1160">Láser</a>
+						</div>
+					</div>
+
+                    <!-- MOBILARIO -->
+
+					<div class="subcategoria" data-categoria="mobilario-de-oficina">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Accesorios</a></div>
+							<a href=" tienda/categoria/paragueeros/1149">Paragueros</a>
+							<a href=" tienda/categoria/percheros/1150">Percheros</a>
+                            <a href=" tienda/categoria/relojes/1152">Relojes</a>
+                            <a href=" tienda/categoria/alfombras/1153">Alfombras</a>
+                            <a href=" tienda/categoria/expositores/1154">Expositores</a>
+                            <a href=" tienda/categoria/estores-y-persianas/1155">Estores y Persianas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Silleria</a></div>
+							<a href=" tienda/categoria/sillones-direccion/1118">Sillones Dirección</a>
+							<a href=" tienda/categoria/sillas-operativas/1119">Sillas Operativas</a>
+							<a href=" tienda/categoria/sillas-confidente/1120">Sillas Confidente</a>
+							<a href=" tienda/categoria/sillas-gaming/1121">Sillas Gaming</a>
+                            <a href=" tienda/categoria/taburetes/1123">Taburetes</a>
+							<a href=" tienda/categoria/taburetes/1123">Escolar</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Almacenaje</a></div>
+							<a href="tienda/categoria/armarios-de-madera/1131">Armarios De Madera</a>
+							<a href="tienda/categoria/armarios-metalicos/1132">Armarios Metálicos</a>
+							<a href=" tienda/categoria/archivadores/1133">Archivadores</a>
+							<a href=" tienda/categoria/cajoneras/1134">Cajoneras</a>
+							<a href=" tienda/categoria/taquillas/1135">Taquillas</a>
+                            <a href=" tienda/categoria/estanterias/1136">Estanterías</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Recepción</a></div>
+							<a href=" tienda/categoria/mostradores/1138">Monstradores</a>
+							<a href=" tienda/categoria/sofas/1140">Sofas</a>
+							<a href="tienda/categoria/sillones/1141">Sillones</a>
+							<a href=" tienda/categoria/sillones-relax/1142">Sillones Relax</a>
+							<a href=" tienda/categoria/mesas-auxiliares/1143">Mesas Auxiliares</a>
+							<a href=" tienda/categoria/bancadas/1144">Bancadas</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Mesas</a></div>
+							<a href=" tienda/categoria/mesas-direccion/1125">Mesas Dirección</a>
+							<a href=" tienda/categoria/mesas-operativas/1126">Mesas Operativas</a>
+							<a href=" tienda/categoria/mesas-de-reuniones/1127">Mesas De Reuniones</a>
+							<a href=" tienda/categoria/mesas-multipuesto/1128">Mesas Multipuesto</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">División De Espacios</a></div>
+							<a href=" tienda/categoria/biombos/1146">Biombos</a>
+							<a href=" tienda/categoria/delimitadores/1147">Delimitadores</a>
+						</div> 
+					</div>
+
+					<!-- PRESENTACION Y COMUNICACION -->
+
+						<div class="subcategoria" data-categoria="presentacion-y-comunicacion">
+							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Pizarras y Accesorios</a></div>
+							<a href=" tienda/categoria/accesorios-pizarra/1105">Accesorios Pizarra</a>
+							<a href=" tienda/categoria/pizarras-blancas/1107">Pizarras Blancas</a>
+							<a href=" tienda/categoria/pizarras-verdes/1106">Pizarras Verdes</a>
+                            <a href=" tienda/categoria/tableros-corcho/1108">Tableros De Corcho</a>
+							<a href=" tienda/categoria/pizarras-moviles/1109">Pizzaras Móviles</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/expositores/270">Expositores</a></div>
+						</div>
+                            <div class="enlaces-subcategoria">
+                                <div class="titulo"><a href=" tienda/categoria/productos-limpieza/271">Productos Limpieza</a></div>
+                            </div>
+                            <div class="enlaces-subcategoria">
+                                <div class="titulo"><a href=" tienda/categoria/proyecc-pantallas-paneles-autoadh/272">Proyecc, Pantallas, Paneles autoadh</a></div>
+                        	</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href=" tienda/categoria/punteros/273">Punteros</a></div>
+							</div> 
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href=" tienda/categoria/vitrinas-y-plannings/275">Vitrinas y Plannings</a></div>
+							</div>   
+					</div>
+
+                    <!-- SERVICIOS GENERALES -->
+
+					<div class="subcategoria" data-categoria="servicios-generales">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Envíos</a></div>
+							<a href=" tienda/categoria/accesorios-de-envio/221">Accesorios De Envío</a>
+							<a href=" tienda/categoria/paquetes-y-cajas/225">Paquetes y Cajas</a>
+							<a href=" tienda/categoria/cintas-de-embalaje/226">Cintas De Embalaje</a>
+                            <a href=" tienda/categoria/material-de-embalaje/230">Material De Embalaje</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Limpieza e Higiene</a></div>
+							<a href=" tienda/categoria/productos-de-limpieza/1076">Productos De Limpieza</a>
+							<a href=" tienda/categoria/ambientadores/1077">Ambientadores</a>
+							<a href=" tienda/categoria/gestion-de-residuos/1079">Gestión De Residuos</a>
+                            <a href=" tienda/categoria/papel-higienico-e-industrial/1080">Papel Higiénico e Industrial</a>
+						</div>
+                            <div class="enlaces-subcategoria abajo">
+                                <div class="titulo"><a href="#">Seguridad General</a></div>
+                                <a href=" tienda/categoria/armarios-de-llaves/257">Armarios De Llaves</a>
+                                <a href=" tienda/categoria/senales-de-seguridad/1086">Señales De Seguridad</a>
+                                <a href=" tienda/categoria/elementos-de-senalizacion/296">Elementos De Señalización</a>
+                        	</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="#">Catering</a></div>
+								<a href=" tienda/categoria/bebidas/237">Bebidas</a>
+								<a href=" tienda/categoria/aperitivos/1288">Aperitivos</a>
+								<a href=" tienda/categoria/menaje/1071">Menaje</a>
+							</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="tienda/categoria/herramientas/1113">Herramientas</a></div>
+							</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="tienda/categoria/ropa-de-trabajo/1114">Ropa de Trabajo</a></div>
+							</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="tienda/categoria/banderas/1267">Banderas</a></div>
+							</div>
+					</div>
+
+					<!-- PAPEL Y SOBRES -->
+					<div class="subcategoria" data-categoria="papel-y-sobres">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Papel Blanco Multifunción</a></div>
+							<a href="tienda/categoria/formato-a3/1062">Formato A3</a>
+							<a href="tienda/categoria/formato-a4/1061">Formato A4</a>
+							<a href="tienda/categoria/formato-a5/1063">Formato A5</a>
+							<a href="tienda/categoria/papel-fotografico/212">Fotográfico</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Papel Color Multifunción</a></div>
+							<a href="tienda/categoria/formato-a4/1065">Formato A4</a>
+							<a href="tienda/categoria/formato-a3/1066">Formato A3</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Papel Profesional</a></div>
+							<a href="tienda/categoria/papel-de-plotter/217">Papel De Plotter</a>
+							<a href="tienda/categoria/rollos-sumadora-tpv/218">Rollos Sumadora / TPV</a>
+                            <a href=" tienda/categoria/papel-continuo/211">Papel Continuo</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Sobres</a></div>
+							<a href=" tienda/categoria/sobres-acolchados/223">Sobres Acolchados</a>
+							<a href=" tienda/categoria/sobres-de-uso-estandar/234">Sobres de Uso Estandar</a>
+							<a href="tienda/categoria/sobres-packing-list/231">Sobres Packing List</a>
+							<a href="tienda/categoria/sobres-para-cd-dvd/1073">Sobres Para CD / DVD</a>
+							<a href="tienda/categoria/bolsas/1074">Bolsas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="tienda/categoria/papel-reciclado/216">Papel Reciclado</a></div>
+						</div>
+					</div>
+					<!-- CUADERNOS Y NOTAS -->
+
+					<div class="subcategoria" data-categoria="cuadernos-y-notas">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Cuadernos</a></div>
+							<a href=" tienda/categoria/bloc-y-libretas/164">Bloc y Libretas</a>
+							<a href=" tienda/categoria/gama-escolar/174">Gamma Escolar</a>
+							<a href=" tienda/categoria/recambios/182">Recambios</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Notas</a></div>
+							<a href=" tienda/categoria/indices-adhesivos/176">Indices Adhesivos</a>
+							<a href=" tienda/categoria/notas-adhesivas/179">Notas Adhesivas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href=" tienda/categoria/cuadernos-espiral/168">Cuadernos Espiral</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href=" tienda/categoria/libros-de-contabilidad/178">Libros De Contabilidad</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href=" tienda/categoria/portadocumentos/181">Portadocumentos</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href=" tienda/categoria/talonarios/183">Talonarios</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href=" tienda/categoria/agendas/1035">Agendas</a></div>
+						</div>
+					</div>
+
+					<!-- ARTICULOS DE OFICINA -->
+					<div class="subcategoria" data-categoria="articulos-de-oficina">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Corte</a></div>
+							<a href=" tienda/categoria/tijeras-de-oficina/159">Tijeras De Oficina</a>
+							<a href=" tienda/categoria/vades-de-corte/161">Vades De Corte</a>
+							<a href=" tienda/categoria/taladros/157">Taladros</a>
+							<a href=" tienda/categoria/cutters-y-escalpelos/149">Cutters y Escalpelos</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Grapado</a></div>
+							<a href=" tienda/categoria/grapadoras-y-grapas/152">Grapadoras y Grapas</a>
+							<a href=" tienda/categoria/tenazas/158">Tenazas</a>
+							<a href=" tienda/categoria/extraegrapas/150">Extraegrapas</a>
+							<a href=" tienda/categoria/clavadoras/146">Clavadoras</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Ergonomía</a></div>
+							<a href=" tienda/categoria/soportes-monitor/1177">Soportes Monitor</a>
+							<a href=" tienda/categoria/soportes-portatil/1178">Soportes Portátil</a>
+							<a href=" tienda/categoria/reposapies-y-respaldos/1179">Reposapies y Respaldos</a>
+							<a href=" tienda/categoria/reposamunecas-y-alfombrillas/1180">Reposamuñecas y Alfombrillas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Accesorios de Clasificación</a></div>
+							<a href="tienda/categoria/indices-y-separadores/198">Indices y Separadores</a>
+							<a href="tienda/categoria/fundas-plastico/197">Fundas Plástico</a>
+							<a href="tienda/categoria/ficherostarjeteroslistines-telef/196">Ficheros, Tarjeteros, Listines Telef</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Clasificación de Archivos</a></div>
+							<a href="tienda/categoria/archivador-palanca/186">Archivador Palanca</a>
+							<a href="tienda/categoria/archivo-definitivo/187">Archivo Definitivo</a>
+							<a href="tienda/categoria/dossiers-y-carpetas-sobre/195">Dossiers y Carpetas Sobre</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Tinta y Sellos</a></div>
+							<a href=" tienda/categoria/cauchos-personalizados/1266">Cauchos Personalizados</a>
+							<a href=" tienda/categoria/sellos/160">Sellos</a>
+							<a href=" tienda/categoria/tampones/156">Tampones</a>
+							<a href=" tienda/categoria/almohadillas/1262">Almohadillas</a>
+							<a href=" tienda/categoria/tintas/1263">Tintas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Escritorio</a></div>
+							<a href=" tienda/categoria/lupas/1295">Lupas</a>
+							<a href=" tienda/categoria/atriles/1168">Atriles</a>
+							<a href=" tienda/categoria/vades/1169">Vades</a>
+							<a href=" tienda/categoria/soportes-calendario/1170">Soportes Calendario</a>
+							<a href=" tienda/categoria/lapiceros/1171">Lapiceros</a>
+							<a href=" tienda/categoria/papeleras/1172">Papeleras</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Organización</a></div>
+							<a href=" tienda/categoria/revisteros/1173">Revisteros</a>
+							<a href=" tienda/categoria/identificadores-portanombres/1174">Identificadores Portanombres</a>
+							<a href=" tienda/categoria/bandejas-y-organizadores/1175">Bandejas y Organizadores</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Sujección</a></div>
+							<a href=" tienda/categoria/anillas-encuadernadores-y-pinzas/143">Anillas, Encuadernadores y Pinzas</a>
+							<a href=" tienda/categoria/pegamento-y-masillas-adhesivas/153">Pegamento y Masillas adhesivas</a>
+							<a href=" tienda/categoria/cola-adhesiva-y-de-contacto/148">Cola Adhesiva y De Contacto</a>
+							<a href=" tienda/categoria/clips-y-portaclips/147">Clips y PortaClips</a>
+							<a href=" tienda/categoria/chinchetas-y-agujas/144">Chinchetas y Agujas</a>
+							<a href=" tienda/categoria/cintas-adhesivas/145">Cintas Adhesivas</a>
+							<a href=" tienda/categoria/fasteners-y-gomas-elasticas/151">Fásteners y Gommas Elásticas</a>
+						</div>
+						<div class="enlaces-subcategoria">
+							<div class="titulo"><a href="#">Carpetas de Clasificación</a></div>
+							<a href="tienda/categoria/carpetas-proyectos/193">Carpetas Proyectos</a>
+							<a href="tienda/categoria/carpetas-gomas/192">Carpetas Gomas</a>
+							<a href="tienda/categoria/carpetas-fundas/191">Carpetas Fundas</a>
+							<a href="tienda/categoria/carpetas-firmas-y-colgantes/190">Carpetas Firmas y Colgantes</a>
+							<a href="tienda/categoria/carpetas-anillas/189">Carpetas Anillas</a>
+							<a href="tienda/categoria/clasificadores-y-fuelles/194">Clasificadores y Fuelles</a>
+							<a href="tienda/categoria/subcarpetas-y-archivo-premier/201">Subcarpetas y Archivo Premier</a>
+						</div>
+					</div>
+
+					<!-- MATERIAL ESCOLAR -->
+
+					<div class="subcategoria" data-categoria="material-escolar">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Pintura y Modelado</a></div>
+							<a href=" tienda/categoria/glitter-purpurina-y-maquillaje/124">Glitter, Pulpurina y Maquillaje</a>
+							<a href=" tienda/categoria/pintura-para-manualidades/130">Pintura Para Manualidades</a>
+							<a href=" tienda/categoria/plastilina-y-accesorios/131">Plastilina y Accesorios</a>
+                            <a href=" tienda/categoria/temperas-y-pinturas-de-dedos/137">Témperas y Pinturas de Dedos</a>
+							<a href=" tienda/categoria/pinceles/1102">Pinceles</a>
+							<a href=" tienda/categoria/halloween/1115">Halloween</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Accesorios De Manualidades</a></div>
+							<a href=" tienda/categoria/corte-y-perforado/120">Corte y Perforado</a>
+							<a href=" tienda/categoria/gomets/122">Gomets</a>
+							<a href=" tienda/categoria/goma-eva/125">Goma Eva</a>
+                            <a href=" tienda/categoria/tijeras-escolares/138">Tijeras Escolares</a>
+							<a href=" tienda/categoria/flautas/1058">Flautas</a>
+							<a href=" tienda/categoria/accesorios/1103">Accesorios</a>
+						</div>
+                            <div class="enlaces-subcategoria">
+                                <div class="titulo"><a href="#">Escritura y Color</a></div>
+                                <a href=" tienda/categoria/lapices/126">Lápices</a>
+                                <a href=" tienda/categoria/rotuladores/1052">Rotuladores</a>
+                                <a href=" tienda/categoria/ceras/1053">Ceras</a>
+                            </div>
+                            <div class="enlaces-subcategoria abajo">
+                                <div class="titulo"><a href="#">Accesorios De Dibujo</a></div>
+                                <a href=" tienda/categoria/compases/119">Compases</a>
+                                <a href=" tienda/categoria/reglas-y-medicion/133">Reglas y Medición</a>
+                        	</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="#">Cartulina y Papel</a></div>
+								<a href=" tienda/categoria/cartulinas/118">Cartulinas</a>
+								<a href=" tienda/categoria/papel-de-dibujo-y-tecnico/127">Papel de Dibujo y Dibujo Técnico</a>
+								<a href=" tienda/categoria/papel-para-manualidades/128s">Papel Para Manualidades</a>
+							</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="tienda/categoria/mochilas/132">Mochilas</a></div>
+							</div>
+							<div class="enlaces-subcategoria">
+								<div class="titulo"><a href="tienda/categoria/bellas-artes/1059">Bellas Artes</a></div>
+							</div>    
+						</div> 
+
+					<!-- ESCRITURA Y CORRECIÓN -->
+
+					<div class="subcategoria" data-categoria="escritura-y-correción">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Escritura</a></div>
+							<a href=" tienda/categoria/escritura-premium/103">Escritura Premium</a>
+							<a href=" tienda/categoria/boligrafos/99">Bolígrafos</a>
+							<a href=" tienda/categoria/lapices-portaminas-y-minas/105">Lapices, Portaminas y Minas</a>
+                            <a href=" tienda/categoria/afilalapices/1093">Afilalápices</a>
+						</div>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Rotuladores</a></div>
+							<a href=" tienda/categoria/rotuladores/109">Rotuladores</a>
+							<a href=" tienda/categoria/rotuladores-punta-fibra/110">Rotuladores Punta Fibra</a>
+							<a href=" tienda/categoria/rotuladores-de-pizarra/112">Rotuladores De Pizarra</a>
+                            <a href=" tienda/categoria/marcadores/106">Marcadores</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Recambios De Escritura</a></div>
+							<a href=" tienda/categoria/recambios-de-pluma/1041">Recambios De Pluma</a>
+							<a href=" tienda/categoria/recambios-de-pizarra/1042">Recambios De Pizarra</a>
+							<a href=" tienda/categoria/recambios-de-boligrafos/1043">Recambios De Bolígrafos</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Correción</a></div>
+							<a href=" tienda/categoria/gomas-de-borrar/97">Gomas De Borrar</a>
+							<a href=" tienda/categoria/correctores/100">Correctores</a>
+						</div>
+					</div>
+
+					<!-- MAQUINAS DE OFICINA -->
+
+					<div class="subcategoria" data-categoria="maquinas-de-oficina">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Rotulación y Etiquetaje</a></div>
+							<a href=" tienda/categoria/etiquetadoras/204">Etiquetadoras</a>
+							<a href=" tienda/categoria/etiquetas/205">Etiquetas</a>
+							<a href=" tienda/categoria/rotuladoras/207">Rotuladoras</a>
+                            <a href=" tienda/categoria/cinta-rotuladoras/209">Cintas Rotuladoras</a>
+							<a href=" tienda/categoria/pistola-de-navetes/206">Pistola De Navetes</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Sistemas Encuadernación</a></div>
+							<a href=" tienda/categoria/canutillos-y-espirales/1099">Canutillos y Espirales</a>
+							<a href=" tienda/categoria/encuadernadoras/1100">Encuadernadoras</a>
+							<a href=" tienda/categoria/portadas-encuadernacion/1101">Portada Encuadernación</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Plastificación</a></div>
+							<a href=" tienda/categoria/laminas-y-bovinas/1264">Laminas y Bovinas</a>
+							<a href=" tienda/categoria/plastificadoras/1265">Plastificadoras</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/cajas-registradoras/49">Cajas Registradoras</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/calculadoras/86">Calculadoras</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/cizalla-y-guillotinas/88">Cizalla y Guillotinas</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/destructoras/89">Destructoras</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/control-de-presencia/1089">Control De Presencia</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/detectores-de-billetes/1098">Detectores De Billetes</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/pesacartas-basculas/1297">Pesacartas/Básculas</a></div>
+						</div>
+					</div>
+
+					<!-- Electrónica -->
+
+					<div class="subcategoria" data-categoria="electronica">
+						<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
+                        <div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Material Eléctrico</a></div>
+							<a href=" tienda/categoria/pilas/90">Pilas</a>
+							<a href=" tienda/categoria/regletas/1261">Regletas</a>
+							<a href=" tienda/categoria/medidores/1296">Medidores</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Iluminación</a></div>
+							<a href=" tienda/categoria/bombillas/1259">Bombillas</a>
+							<a href=" tienda/categoria/lamparas/1260">Lámparas</a>
+							<a href=" tienda/categoria/tiras-led/1300">Tiras LED</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href="#">Ventilación</a></div>
+							<a href=" tienda/categoria/pilas/90">Climatizadores / AC</a>
+							<a href=" tienda/categoria/regletas/1261">Ventiladores</a>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/calefaccion/1239">Calefacción</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/televisores/1270s">Televisores</a></div>
+						</div>
+						<div class="enlaces-subcategoria">
+                            <div class="titulo"><a href=" tienda/categoria/televisores/1270s">Antimosquitos Eléctricos</a></div>
+						</div>  
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="todo" id="todo"></div>
+
+	<main class="contenedor">
+		<article></article>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="main.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</body>
+</html>
