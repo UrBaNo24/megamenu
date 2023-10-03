@@ -1,2 +1,2 @@
 # Megamenu
-Megamenu para tiendas con una gran cantidad de stock en diferentes productos desarrollado en HTML, CSS y Javascript
+Megamenu for stores with a large amount of stock in different products developed in HTML, CSS, and Javascript.
